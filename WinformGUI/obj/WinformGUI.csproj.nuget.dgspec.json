@@ -1,0 +1,187 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\WinformGUI\\WinformGUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\BusinessEntities\\BusinessEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\BusinessEntities\\BusinessEntities.csproj",
+        "projectName": "BusinessEntities",
+        "projectPath": "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\BusinessEntities\\BusinessEntities.csproj",
+        "packagesPath": "C:\\Users\\gubet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\BusinessEntities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gubet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\ServiceLager\\ServiceLager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\ServiceLager\\ServiceLager.csproj",
+        "projectName": "ServiceLager",
+        "projectPath": "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\ServiceLager\\ServiceLager.csproj",
+        "packagesPath": "C:\\Users\\gubet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\ServiceLager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gubet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\BusinessEntities\\BusinessEntities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\WinformGUI\\WinformGUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\WinformGUI\\WinformGUI.csproj",
+        "projectName": "WinformGUI",
+        "projectPath": "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\WinformGUI\\WinformGUI.csproj",
+        "packagesPath": "C:\\Users\\gubet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\WinformGUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gubet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\BusinessEntities\\BusinessEntities.csproj"
+              },
+              "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\ServiceLager\\ServiceLager.csproj": {
+                "projectPath": "C:\\Users\\gubet\\source\\repos\\TågBibblan_Grupp17\\ServiceLager\\ServiceLager.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

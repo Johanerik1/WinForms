@@ -1,0 +1,122 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "BusinessEntities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BusinessEntities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessEntities.dll": {}
+        }
+      },
+      "ServiceLager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BusinessEntities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ServiceLager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServiceLager.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessEntities/1.0.0": {
+      "type": "project",
+      "path": "../BusinessEntities/BusinessEntities.csproj",
+      "msbuildProject": "../BusinessEntities/BusinessEntities.csproj"
+    },
+    "ServiceLager/1.0.0": {
+      "type": "project",
+      "path": "../ServiceLager/ServiceLager.csproj",
+      "msbuildProject": "../ServiceLager/ServiceLager.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "BusinessEntities >= 1.0.0",
+      "ServiceLager >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\johan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\johan\\Downloads\\TagBibblan_Grupp17\\TågBibblan_Grupp17\\WinForm_GUI\\WinForm_GUI.csproj",
+      "projectName": "WinForm_GUI",
+      "projectPath": "C:\\Users\\johan\\Downloads\\TagBibblan_Grupp17\\TågBibblan_Grupp17\\WinForm_GUI\\WinForm_GUI.csproj",
+      "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\johan\\Downloads\\TagBibblan_Grupp17\\TågBibblan_Grupp17\\WinForm_GUI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\johan\\Downloads\\TagBibblan_Grupp17\\TågBibblan_Grupp17\\BusinessEntities\\BusinessEntities.csproj": {
+              "projectPath": "C:\\Users\\johan\\Downloads\\TagBibblan_Grupp17\\TågBibblan_Grupp17\\BusinessEntities\\BusinessEntities.csproj"
+            },
+            "C:\\Users\\johan\\Downloads\\TagBibblan_Grupp17\\TågBibblan_Grupp17\\ServiceLager\\ServiceLager.csproj": {
+              "projectPath": "C:\\Users\\johan\\Downloads\\TagBibblan_Grupp17\\TågBibblan_Grupp17\\ServiceLager\\ServiceLager.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

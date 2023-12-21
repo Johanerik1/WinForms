@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WinForm_GUI/1.0.0": {
+        "dependencies": {
+          "BusinessEntities": "1.0.0",
+          "ServiceLager": "1.0.0"
+        },
+        "runtime": {
+          "WinForm_GUI.dll": {}
+        }
+      },
+      "BusinessEntities/1.0.0": {
+        "runtime": {
+          "BusinessEntities.dll": {}
+        }
+      },
+      "ServiceLager/1.0.0": {
+        "dependencies": {
+          "BusinessEntities": "1.0.0"
+        },
+        "runtime": {
+          "ServiceLager.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinForm_GUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusinessEntities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceLager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
